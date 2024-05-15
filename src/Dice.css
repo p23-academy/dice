@@ -1,0 +1,15 @@
+.dice {
+    width: fit-content;
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.field {
+    height: 64px;
+    width: 64px;
+}
+
+.dot {
+    background-color: black;
+}
